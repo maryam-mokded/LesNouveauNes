@@ -1,0 +1,145 @@
+body {
+  background : #ef8ead;
+}
+
+header{
+	background : #ffc6d1;
+	padding: 40px;
+	padding-bottom: 48px;
+	margin :  -8px 62px;
+	display : grid;
+	grid-template-rows : 65% 30%;
+}
+ .titre{
+   	display : grid ;
+	grid-template-columns : 2fr 7fr ;
+} 
+.t{
+    font-size: 60px;
+    text-align: center;
+    color: #ef8ead;
+    font-family: comic sans ms;
+    text-shadow: #ef8ead 2.5px 2.5px 0, #ff00c0 5px 5px 0, #aa0306 7.5px 7.5px 0, #333 10.5px 10.5px 10px;
+}
+.titre img {
+	width :130px;
+	height : 130px ;
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+	border-radius: 5%;
+    border: 2px solid black;
+    border-style: outset;
+    box-shadow: 5px 5px 0px rgb(70,63,63); 
+}
+img:hover {
+	-webkit-filter: grayscale(100%);
+}
+nav a{
+	font-size : 17px;
+	font-family : comic sans ms;
+	color : navy ;
+	display : block;
+	text-decoration : none;
+	padding: 10px;
+    text-align: center;
+    margin-top: 53px;
+    border-radius: 10%;
+}
+nav a:hover {
+	color :#ef8ead ;
+	background : #ff5252 ;
+}
+
+ .menu{
+	display : grid;
+	grid-template-columns: 2fr 3fr 2fr 2fr 2fr;
+	grid-template-rows:10%
+	grid-column-gap: 10px; 
+	justify-items: center; 
+ }
+
+.p1{
+    padding: 23px 60px 20px 60px;
+	background :#40849b;
+}
+.p2 {
+	background :#f0b645;
+	padding: -1px 60px 34px 60px;
+	margin-right: 6px;
+}
+.p3{
+	padding : 19px 30px 26px 30px;
+	margin-bottom : 27px;
+	background : #aa4a97;
+}
+.p4 {
+	padding: 20px 29px 22px 22px;
+	margin :53px 5px 0px 5px ;
+    background :#db3b61;
+}
+.p5{
+    background : #3bb555;
+    padding: 10px 60px 11px 60px;
+}
+.p1:active{
+    padding: 20px 57px 17px 57px;
+}
+.p2:active {
+	padding: -4px 57px 31px 57px;
+}
+.p3:active{
+	padding : 16px 27px 23px 27px;	
+}
+.p4:active{
+	padding: 17px 26px 19px 19px;
+}
+.p5:active{
+    padding: 7px 57px 9px 57px;
+}
+
+section {
+    background: #ffdddd;
+    margin:8px 62px auto 62px;
+    padding: 10px ;
+	padding-top: 1px;
+}
+.section {
+    background: #ffc6d1;
+    margin: 8px 62px auto 62px;
+    padding: 10px;
+	
+}
+
+fieldset legend {
+	font-size:30px ;
+	font-weight :bold ;
+    text-shadow:#ffe69a 0 -1px 0,#ff6767 2px 2px 0,#ca3333 3px 3px 0,#770a0c 4px 4px 0,#333 5px 5px 10px;color:#FFE5BF;
+}
+p{
+	font-size:25px; 
+	color:Tomato;
+}
+
+video {
+	padding-top: 44px;
+    height: 340px;
+    width: 662px;
+    padding-left: 170px;
+	
+}
+table { 
+    margin: 10px 100px 10px 100px;
+	text-align : center;
+}
+
+table h1 {
+	color:rgb(255, 10, 93) ;
+	font-size:50px;
+	font-weight : bold;
+}
+td {
+	text-align: center ;
+}
+
+
+

@@ -1,0 +1,90 @@
+body {
+  background:#ef8ead;
+}
+.titre{
+    font-size: 80px;
+    text-align: right;
+    color: #ef8ead;
+    font-family: comic sans ms;
+    background: url(image/imgtitre.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 410px;
+    margin-top: 19px;
+    padding-top: 84px;
+	padding-right: 39px;
+} 
+ p{ 
+    font-size:40px ;
+	color:rgba(255, 99, 71, 0.5);
+ }
+.liens{
+	display : grid;
+	grid-template-columns : 2fr 2fr 2fr 2fr; 
+	padding-left:15px;
+	padding-top:2px;
+	margin : 50px 50px 50px 90px;
+ }
+a{
+	text-decoration	: none;
+}
+.tuto:hover {
+	background :#c1c1c1 ;
+	cursor: pointer;
+	 
+}
+.tuto:active{
+	height: 210px;
+    width: 210px; 
+}
+.t1{
+	padding-top: 29px;
+    padding-left: 24px;
+    color: #E91E63;
+    font-weight : bold;
+	text-decoration	: none;
+	font-size: 25px;
+	font-family: comic sans ms;
+}
+.t2{
+    padding-left: 25px;
+    padding-top: 57px;
+	color: #E91E63;
+    font-weight : bold;
+	text-decoration	: none;
+	font-size: 25px;
+    font-family: comic sans ms;
+}
+.t3{
+	padding-top: 62px;
+    padding-left: 17px;
+	color: #E91E63;
+    font-weight : bold;
+	text-decoration	: none;
+	font-size: 25px;
+    font-family: comic sans ms;
+}
+.t4{
+	padding-top: 48px;
+    padding-left: 4px;
+	color: #E91E63;
+    font-weight : bold;
+	text-decoration	: none;
+	font-size: 25px;
+	font-family: comic sans ms;
+}
+
+.tuto{
+    background :#ffdfdf;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border-style: outset;
+    box-shadow: 7px 5px 0px rgb(97, 87, 87);
+	border:none;
+	padding:6px 0 6px 0;
+	font:bold 13px Arial;
+	color:#555;
+	}
+
